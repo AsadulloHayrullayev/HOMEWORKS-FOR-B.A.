@@ -31,4 +31,11 @@ if 6> len(tst) < 0:
 else:
     print("miraf is gay ")
 
+# git checkout -b name_branch  ## creatin new branch
 
+# nigga is criminal he stole that girls purse and kidnapped her
+# after all of this shit he raped her in his basement
+# after about 2 years he married her at nearest church
+# now that nigga got shot by policeman
+# that is how nigga things are done
+# P.S he loved KFC
