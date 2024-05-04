@@ -1,12 +1,32 @@
 #1 operators > n <
-tst = int(input('gimme number'))
-if tst >0:
-    print("True")
-else:
-    print("false")
+# tst = int(input('gimme number'))
+# if tst >0:
+#     print("True")
+# else:
+#     print("false")
+#
+#
+# if tst > 10:
+#     print("tst больше 10")
+# else:
+#     print("tst меньше или равно 10")
 
+tst = 15
+if tst > 10 :
+    if tst <20:
+        print("True")
+else :
+    print("nigga")
 
-if tst > 10:
-    print("tst больше 10")
+tst = -5
+if 0 > tst < -10 :
+    if 30 > tst < -8:
+        print("nigga")
 else:
-    print("tst меньше или равно 10")
+    print("lll")
+
+tst = ['a', 'b', 'c', 'd','e']
+if 6> len(tst) < 0:
+    print('hhh')
+else:
+    print("miraf is gay ")
