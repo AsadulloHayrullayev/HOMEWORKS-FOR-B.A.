@@ -1,4 +1,4 @@
-#                          #HOMEWORK FOR LESSON 29
+#                          ### HOMEWORK FOR LESSON 29
 # class A :
 #     def add(self,a,b):
 #         return a + b
@@ -57,7 +57,7 @@
 
 
 
-                            #HOMEWORK FOR LESSON 30
+                            ### HOMEWORK FOR LESSON 30
 # class SAlam:
 #     def __init__(self):
 #         self.salam = {}
@@ -81,29 +81,61 @@
 # b.name_age(1,"22.09.2002","Carter","Jordan",77)
 # print(b.pri(1))
 
-                        #HOMEWORK FOR LESSON 31
-class BankAccStatus:
-    def __init__(self):
-        self.balance = 1
-        self.__all_balance = {}
+                        ### HOMEWORK FOR LESSON 31
+# class BankAccStatus:
+#     def __init__(self):
+#         self.balance = 1
+#         self.__all_balance = {}
+#
+#     def deposit(self, __number_acc, amount):
+#         self.__all_balance[__number_acc] = amount + self.balance
+#         self.balance += amount
+#
+#     def withdraw(self, __number_acc, amount):
+#         self.__all_balance[__number_acc] = self.balance - amount
+#         self.balance -= amount
+#
+#     def get_balance(self, __number_acc):
+#         return f"Money You Got Now : {self.__all_balance[__number_acc]}"
+#
+#     def get_account_number(self, __number_acc):
+#         return f"Account's Number : {__number_acc}"
+#
+#
+# a = BankAccStatus()
+# a.deposit(1, 121)
+# a.withdraw(1, 21)
+# print(a.get_account_number(1))
+# print(a.get_balance(1))
 
-    def deposit(self, __number_acc, amount):
-        self.__all_balance[__number_acc] = amount + self.balance
-        self.balance += amount
+                                   ### HOMEWORK FOR LESSON 32
+def game():
+    score = 0
+    hello = input('Hello bro , we r gonna play a mini-game , are u ready?')
+    num = input("GIMME word which is polindrom ")
+    if num == num [::-1]:
+            print("that was  polindrom")
+            score =score +3
+    else:
+        score = score - 0.5
+        print("not polindrom")
+    print(f'Ur overall score is {score}')
 
-    def withdraw(self, __number_acc, amount):
-        self.__all_balance[__number_acc] = self.balance - amount
-        self.balance -= amount
+    num2 = input("Bro again , give me one word , which should be polindrom ")
+    if num2 == num2 [::-1]:
+            print("that was  polindrom")
+            score1 =score +3
+    else:
+        score1 = score - 0.5
+        print("not polindrom")
+    print(f'Ur overall score is {score1}')
 
-    def get_balance(self, __number_acc):
-        return f"Money You Got Now : {self.__all_balance[__number_acc]}"
-
-    def get_account_number(self, __number_acc):
-        return f"Account's Number : {__number_acc}"
-
-
-a = BankAccStatus()
-a.deposit(1, 121)
-a.withdraw(1, 21)
-print(a.get_account_number(1))
-print(a.get_balance(1))
+    num3 = input("Bro again , give me one word , which should be polindrom ")
+    if num3 == num3[::-1]:
+        print("that was  polindrom")
+        score2 = score1 + 3
+    else:
+        score2 = score1 - 0.5
+        print("not polindrom")
+    print(f'Ur overall score is {score2}')
+game()
